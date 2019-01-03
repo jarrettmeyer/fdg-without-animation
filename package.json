@@ -1,0 +1,13 @@
+{
+    "name": "fdg-without-animation",
+    "description": "A D3 force-directed graph, without (and with) simulation animation effects.",
+    "version": "1.0.0",
+    "private": true,
+    "author": "Jarrett Meyer <jarrettmeyer@gmail.com>",
+    "scripts": {
+        "start": "npx http-server ."
+    },
+    "dependencies": {
+        "http-server": "^0.11.1"
+    }
+}

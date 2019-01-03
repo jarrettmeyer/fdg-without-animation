@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FDG Without Animation</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <p>
+                Animate?
+                <label>
+                    <input type="radio" name="input-animate" value="Yes"> Yes
+                </label>
+                <label>
+                    <input type="radio" name="input-animate" value="No"> No
+                </label>
+            </p>
+            <p>
+                Node Count:
+                <input type="text" name="node-count">
+            </p>
+            <p>
+                Link Probability:
+                <input type="text" name="link-probability">
+            </p>
+            <p>
+                <button type="button" id="start-button">Start</button>
+            </p>
+        </div>
+        <div>
+            <svg id="canvas"></svg>
+        </div>
+        <div>
+            <h2>Logs</h2>
+            <ul id="logs">
+            </ul>
+        </div>
+        <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+        <script src="https://unpkg.com/d3@5.7.0/dist/d3.min.js"></script>
+        <script src="fdg.js"></script>
+    </body>
+</html>
